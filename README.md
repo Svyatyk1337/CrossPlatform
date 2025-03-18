@@ -1,18 +1,16 @@
-## Getting Started
+# Менеджер Футболістів
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Ласкаво просимо до **"Менеджера Футболістів"**!  
+Ця програма дозволяє керувати базою даних футболістів, виконуючи такі дії:
 
-## Folder Structure
+- Додавання нових гравців
+- Відображення всіх гравців
+- Оновлення інформації про гравця
+- Видалення гравця
+- Пошук гравців за різними критеріями
+- Сортування списку гравців  
+- Збереження даних у JSON
 
-The workspace contains two folders by default, where:
+## 📂 Структура проєкту
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+FootballManager/ │── src/ │ ├── main/ │ │ ├── Main.java # Головний клас для запуску програми │ │ ├── Menu.java # Консольне меню │ │ │ ├── models/ │ │ ├── Player.java # Клас футболіста │ │ │ ├── services/ │ │ ├── PlayerService.java # Логіка CRUD операцій │ │ ├── JsonUtils.java # Робота з JSON │ │── data/ │ ├── players.json # База даних футболістів у JSON │ │── README.md # Документація проєкту
