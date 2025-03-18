@@ -11,6 +11,3 @@
 - Сортування списку гравців  
 - Збереження даних у JSON
 
-## 📂 Структура проєкту
-
-FootballManager/ │── src/ │ ├── main/ │ │ ├── Main.java # Головний клас для запуску програми │ │ ├── Menu.java # Консольне меню │ │ │ ├── models/ │ │ ├── Player.java # Клас футболіста │ │ │ ├── services/ │ │ ├── PlayerService.java # Логіка CRUD операцій │ │ ├── JsonUtils.java # Робота з JSON │ │── data/ │ ├── players.json # База даних футболістів у JSON │ │── README.md # Документація проєкту
